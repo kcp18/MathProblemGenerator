@@ -85,7 +85,7 @@ class ProblemGenerator(object):
 
         t = date.today()
 
-        pset_name = 'pset_%s-%s-%s' % (t.year, t.month, t.day)
+        pset_name = 'pset_%s-%s-%s.txt' % (t.year, t.month, t.day)
         answ_name = 'answer-' + pset_name
 
         pset_path = os.path.join(os.getcwd(), pset_name)
